@@ -65,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
             Libro.add("Farenheith");
             Libro.add("Revival");
             Libro.add("El Alquimista");
+            Libro.add("El Poder");
+            Libro.add("Despertar");
 
             progreso.setVisibility(View.INVISIBLE);
             Intent i = new Intent(getBaseContext(), Github_act.class );
